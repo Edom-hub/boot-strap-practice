@@ -1,0 +1,39 @@
+styles.css
+
+#date-pading {
+display: flex;
+}
+
+#d-block {
+    justify-content: space-between;
+}
+#start {
+    padding-right: 10%;
+    margin-right: 15%;
+    background-color: rgb(31, 181, 198);
+    color: white;
+    border: none;
+}
+#padding-date-selector {
+    margin-right: 1.2em;
+}
+#task-icon {
+    margin-top: 50%;
+}
+.card:hover {
+background-color:lightgrey;
+transform: scale(1.2);
+}
+
+.card {
+    min-width: 200px;
+    display: flex;
+}
+.card-body {
+}
+body {
+    background-color: rgb(230, 235, 236);
+}
+#navmenu{
+    padding-left: 3em;
+}

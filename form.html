@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>boot-camp</title>
+   
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-info navbar-dark">
+    <div class="container">
+        <a href="#" class="navbar-brand">TASK to GO</a>
+        <button class="navbar-toggler"
+        type="button" data-bs-toggle="collapse"
+        data-bs-target="navmenu">
+
+            <span class="navbar-toggler-icon border-0"></span>
+         </button>
+
+        <div class="collapse navbar-collapse ml-5" id="navmenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                    <a href="#learn" class="nav-link text-white">Add TASK</a></li>
+                <li class="navbar-item">
+                    <a href="#questions" class="nav-link text-white">Finished TASK</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#instructors" class="nav-link text-white">Account</a>
+                </li>
+             </ul>
+        </div>
+    </div>
+
+</nav>
+
+<form class="w-100  text-white bg-dark p-5 border-light  d-block">
+    <div class="form-group my-5 ">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control my-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+
+      <div class="mb-5">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control " id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="d-block mb-5 mt-3">
+      <lable class="mr-2" for="option">Assigned to:</lable>
+      <select class="form-select w-30 pr-5 bg-info text-white" id="option" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+
+    <div id="d-block w-50 mr-2 mb-5 d-flex mx-2 bg-info text-white">
+    <label id="padding-date-selector"for="start">Start date:</label>
+    <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31"> 
+    
+    <label id="padding-date-selector bg-info text-white " for="start">Start date:</label>
+    <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">  
+        </div>
+
+
+    <div class="d-block mr-3 mb-5 mt-5 ">
+      <lable class="mr-5 " for="option">Status:</lable>
+      <select class="form-select w-30 pr-5 bg-info text-white" id="option" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+
+
+       <button type="submit" class="btn btn-info my-3 pl-5 pr-5">Submit</button>
+  </form>
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
